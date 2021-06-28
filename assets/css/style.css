@@ -1,0 +1,42 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.counter-wrap {
+    display: flex;
+    filter: blur(4);
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    overflow: hidden;
+    margin: 0;
+    opacity: .8;
+    background: #000000;
+	background-attachment: fixed;
+	
+}
+.counter-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin: 30px 50px;
+	
+}
+.counter{
+	font-size: 50px;
+	margin-top: 10px;
+}
+.fa-user{
+	font-size: 50px;
+	color: rgb(13, 255, 45);
+}
+@media (max-width: 580px){
+	.counter-wrap{
+		flex-direction: column;
+	}
+}
+.text-white{
+	color: rgb(13, 255, 45);
+}
